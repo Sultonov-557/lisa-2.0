@@ -1,0 +1,11 @@
+{
+  "name": "lisa-2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cli": "node cli.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
