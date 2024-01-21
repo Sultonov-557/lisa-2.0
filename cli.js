@@ -5,11 +5,11 @@ const readline = require("node:readline").createInterface({
   output: process.stdout,
 });
 
-ask();
-function ask() {
+run();
+function run() {
   readline.question(`You: `, (input) => {
-    const output = lisa.continue(input, 10);
+    const output = lisa.correct(input);
     console.log("Lisa:", output);
-    ask();
+    run();
   });
 }

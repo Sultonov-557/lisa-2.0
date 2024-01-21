@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cli": "node cli.js"
+    "cli": "node cli.js",
+    "parse": "node textParse.js"
   },
   "author": "",
   "license": "ISC"
